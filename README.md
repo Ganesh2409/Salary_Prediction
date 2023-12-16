@@ -1,3 +1,3 @@
 # Salary_Prediction
 Forging a cutting-edge Salary Prediction Software for Software Engineers. Seamlessly blending the art of data science and the precision of machine learning.
-# <span style="font-size:12px;">Predict :--></span> ###https://lets-predict-salary.streamlit.app/
+# <span style="font-size:16px;">Predict :--></span> ### https://lets-predict-salary.streamlit.app/
