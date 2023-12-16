@@ -35,7 +35,10 @@ def clean_edlevel(x):
 
 @st.cache_data # once we execute the below  step once it wont need to re run the below code once more it will store it in the cache 
 def load_data():
-    data = pd.read_csv('survey_results_public.csv')
+    # pip install pyxlsb
+    xlsb_path = 'survey_results_public.xlsb'
+    # this will help u to read the xlsb file such that it will be the compressed version of the original csv file
+    data = pd.read_excel(xlsb_path, engine='pyxlsb')
     data['Country'].replace('United Kingdom of Great Britain and Northern Ireland', 'Great Briten & Northern Ireland', inplace=True)
     df = data[['Country','YearsCodePro','EdLevel','Employment','ConvertedCompYearly']]
     df = df.rename({'ConvertedCompYearly':'Salary'},axis=1)
