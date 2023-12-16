@@ -5,9 +5,9 @@ import pandas as pd
 import seaborn as sns 
 
 
-label_encoder_column = pickle.load(open('models/label_encoder.pkl', 'rb'))
-ordinal_encoder_column = pickle.load(open('models/ordinal_encoder.pkl', 'rb'))
-random_forest_model = pickle.load(open('models/random_forest.pkl', 'rb'))
+label_encoder_column = pickle.load(open('Salary_Prediction/models/label_encoder.pkl', 'rb'))
+ordinal_encoder_column = pickle.load(open('Salary_Prediction/models/ordinal_encoder.pkl', 'rb'))
+random_forest_model = pickle.load(open('Salary_Prediction/models/random_forest.pkl', 'rb'))
 
 
 def show_predict_page():
