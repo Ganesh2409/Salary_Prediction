@@ -1,4 +1,8 @@
-import pickle,streamlit as st,numpy as np,pandas as pd ,seaborn as sns 
+import pickle
+import streamlit as st
+import numpy as np
+import pandas as pd 
+import seaborn as sns 
 
 
 label_encoder_column = pickle.load(open('models/label_encoder.pkl', 'rb'))
