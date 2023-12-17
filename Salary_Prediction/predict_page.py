@@ -39,4 +39,5 @@ def show_predict_page():
         x[:, 2] = transformed_education
         x = x.astype(float)
         salary = random_forest_model.predict(x)
-        st.subheader(f"The Estimated Salary is {salary[0]:.2f} $ 's ")
+        output = salary[0] - 37666.86 # subtract error from the prediction 
+        st.subheader(f"The Estimated Salary is {output:.2f} $ 's ")
