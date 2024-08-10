@@ -1,6 +1,6 @@
 # Software Developer Salary Predictor
 ### [Let's Predict ]( https://lets-predict-salary.streamlit.app/) ![Predict](https://img.shields.io/badge/Streamlit-orange)
-
+## Overview 
 
 This project is a web application that predicts the salary of software developers based on their country, education level, and years of experience. The application uses a Random Forest model trained on data from the Stack Overflow Developer Survey 2023.
 
