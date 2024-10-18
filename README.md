@@ -1,5 +1,5 @@
 # Software Developer Salary Predictor
-### [Let's Predict ]( https://lets-predict-salary.streamlit.app/) ![Predict](https://img.shields.io/badge/Streamlit-orange)
+
 ## Overview 
 
 This project is a web application that predicts the salary of software developers based on their country, education level, and years of experience. The application uses a Random Forest model trained on data from the Stack Overflow Developer Survey 2023.
@@ -29,8 +29,8 @@ This project is a web application that predicts the salary of software developer
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Ganesh2409/salary-predictor.git
-    cd salary-predictor
+    git clone https://github.com/Ganesh2409/Salary_Prediction.git
+    cd Salary_Prediction
     ```
 
 2. Install the required packages:
@@ -71,4 +71,6 @@ For any questions or feedback, please contact:
 - **Name** - [Ganesh Chowdhary P]()
 - **Email** - [pinnamaneniganesh24@gmail.com ](mailto:your.pinnamaneniganesh24@gmail.com)
 
-I look forward to hearing from you!
+```bash
+Made with ❤️ ( ͡• ͜ʖ ͡• ) Follow for more  ... :)
+```
